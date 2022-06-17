@@ -1,0 +1,11 @@
+.jobList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  @media screen and (max-width: 950px) {
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+  }
+}
